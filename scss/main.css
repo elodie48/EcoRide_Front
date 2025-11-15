@@ -11994,4 +11994,87 @@ footer.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #425E51;
+  background-size: cover;
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#carsharing-form {
+  position: relative;
+  background-color: white;
+  border: solid 1px #708B90;
+  border-radius: 10px;
+  padding: 10px;
+}
+#carsharing-form .form-control,
+#carsharing-form .form-select {
+  color: #708B90;
+}
+#carsharing-form .mb-3 {
+  position: relative;
+}
+#carsharing-form .icon {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+}
+#carsharing-form .mb-3 label, #carsharing-form .mb-3 .form-control {
+  left: 0.5rem;
+  padding-left: 2rem;
+}
+#carsharing-form .form-select {
+  left: 0.5rem;
+  padding-left: 2rem;
+}
+
+.carousel {
+  margin-top: 10%;
+}
+
+.carousel-item-picture {
+  opacity: 0.7;
+  position: relative;
+}
+.carousel-item-picture ::before {
+  content: "";
+  position: absolute;
+}
+.carousel-item-picture .carousel-caption {
+  color: black;
+  height: 50%;
+}
+
+.carousel-inner {
+  border: solid 1px #708B90;
+  border-radius: 10px;
+}
+
+.carousel-caption-description {
+  color: black;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
