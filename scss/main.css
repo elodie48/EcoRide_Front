@@ -12106,7 +12106,7 @@ footer.footer {
 
 .background {
   background-color: #425E51;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 85%;
 }
