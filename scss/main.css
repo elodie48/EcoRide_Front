@@ -12020,6 +12020,7 @@ footer.footer {
   justify-content: center;
 }
 
+.search-result,
 #carsharing-form {
   position: relative;
   background-color: white;
@@ -12027,22 +12028,29 @@ footer.footer {
   border-radius: 10px;
   padding: 10px;
 }
+.search-result .form-control,
+.search-result .form-select,
 #carsharing-form .form-control,
 #carsharing-form .form-select {
   color: #708B90;
 }
+.search-result .mb-3,
 #carsharing-form .mb-3 {
   position: relative;
 }
+.search-result .icon,
 #carsharing-form .icon {
   position: absolute;
   top: 50%;
   left: 0.5rem;
 }
-#carsharing-form .mb-3 label, #carsharing-form .mb-3 .form-control {
+.search-result .mb-3 label, .search-result .mb-3 .form-control,
+#carsharing-form .mb-3 label,
+#carsharing-form .mb-3 .form-control {
   left: 0.5rem;
   padding-left: 2rem;
 }
+.search-result .form-select,
 #carsharing-form .form-select {
   left: 0.5rem;
   padding-left: 2rem;
