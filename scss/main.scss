@@ -46,7 +46,7 @@ footer.footer{
 
 }
 
-//Form
+//Carsharing Form
 #carsharing-form{
     position: relative;
     background-color: white;
@@ -112,3 +112,62 @@ footer.footer{
     align-items: center;
     justify-content: center;
 }
+
+//Signin form
+#connexion-form{
+    position: relative;
+    background-color: white;
+    border: solid 1px #708B90;
+    border-radius: 10px;
+    padding: 10px; 
+
+    .form-label{
+        color: $primary;
+    }
+
+    .form-control{
+        color: $secondary;
+    }
+
+    .mb-3{
+        position: relative;
+    }
+
+    .icon{
+        position: absolute;
+        top: calc(50%);
+        left: 0.5rem;
+    }
+
+    .mb-3 label, .mb-3 .form-control{
+        padding-left: 0.5rem;
+    }
+}
+
+.background{
+    background-color: $primary;
+    position: absolute;
+    width: 100%;
+    height: 85%;
+}
+
+//link on primary color background
+.link-white, 
+.link-white:visited{
+    color: white !important;
+    text-decoration: none;
+}
+ .link-white:hover{
+    text-decoration: underline;
+ }
+
+ .link-white:focus,
+ .link-white:focus-visible{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66,94,81,0.28);
+    border-radius: 4px;
+ }
+
+ .link-white:active{
+    color: #c4c3c3;
+ }
