@@ -1,0 +1,64 @@
+<div class="background">
+    <!--BigTitle-->
+    <div class="hero-scene text-center text-white">
+        <div class="hero-scene-content">
+            <h1>Mon compte</h1>
+        </div>
+    </div>
+
+    <!--Account-->
+    <div class="container">
+        <form id="connexion-form">
+            <div class="mb-3">
+                <label for="LastNameInput" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="LastNameInput" placeholder="Votre nom">
+            </div>
+            <div class="mb-3">
+                <label for="FirstNameInput" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="FirstNameInput" placeholder="Votre prénom">
+            </div>
+            <div class="mb-3">
+                <label for="DateOfBirthInput" class="form-label">Date de naissance</label>
+                <input type="date" class="form-control" id="DateOfBirthInput" placeholder="00/00/0000">
+            </div>    
+            <div class="mb-3">
+                <label for="PhoneNumberInput" class="form-label">Téléphone</label>
+                <input type="tel" class="form-control" id="PhoneNumberInput" placeholder="00 00 00 00 00">
+            </div>
+            <div class="mb-3">
+                <label for="AdressInput" class="form-label">Adresse</label>
+                <input type="text" class="form-control" id="AdressInput" placeholder="Adresse">
+            </div>
+            <div class="mb-3">
+                <label for="PostcodeInput" class="form-label">Code postal</label>
+                <input type="number" class="form-control" id="PostcodeInput" placeholder="00000">
+            </div>
+            <div class="mb-3">
+                <label for="CityInput" class="form-label">Ville</label>
+                <input type="text" class="form-control" id="CityInput" placeholder="Ville">
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="selectDriver" id="driverRadio">
+                    <label class="form-check-label" for="driverRadio">
+                        Chauffeur
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="selectPassenger" id="passengerRadio">
+                    <label class="form-check-label" for="passengerRadio">
+                        Passager
+                    </label>
+                </div>                
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Modifier vos informations</button>
+                <button type="button" class="btn btn-danger">Supprimer votre compte</button>
+            </div>
+        </form>
+        <div class="text-center pt-3">
+            <a href="/editPassword">Cliquez ici pour modifier votre mot de passe</a>
+        </div>
+    </div>
+
+</div>
